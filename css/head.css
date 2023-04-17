@@ -1,0 +1,24 @@
+.head {
+    background-color: #181818;
+}
+
+.conteiner {
+ max-width: 1200px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-logo {}
+
+.head-list {
+    display: flex;
+    gap: 32px;
+}
+
+.head-list-item {}
+
+.head-list-link {}

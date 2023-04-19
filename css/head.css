@@ -4,6 +4,8 @@
 
 .conteiner {
  max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 15px;
 }
 
 .head-nav {
@@ -12,13 +14,30 @@
     align-items: center;
 }
 
-.head-logo {}
+.head-logo {
+    padding: 30px 0;
+}
 
 .head-list {
     display: flex;
     gap: 32px;
 }
 
-.head-list-item {}
+.head-list-item {
+    padding: 35px 0;
+    
+}
 
-.head-list-link {}
+.head-list-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    transition: color 0.25s linear;
+}
+
+.head-list-link:is(:hover,:focus){
+    color: orange;
+}
